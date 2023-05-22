@@ -1,0 +1,27 @@
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.contendor {
+    overflow-x: hidden;
+}
+
+.fondo {
+    background-image: url(./assets/portada.png);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.logo-portada{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 50%;
+}
